@@ -1,0 +1,36 @@
+.navbar {
+  background: #3474e6;
+  color: #fff;
+  height: 60px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .logo {
+      font-size: x-large;
+      font-weight: bold;
+    }
+
+    .nav {
+      display: flex;
+
+      li {
+        margin-left: 20px;
+      }
+
+      a {
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: capitalize;
+
+        &:hover {
+          color: lightblue;
+        }
+      }
+    }
+  }
+}

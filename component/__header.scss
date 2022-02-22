@@ -1,0 +1,21 @@
+.header {
+  background: #0151cc;
+  color: #fff;
+  min-height: 400px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+
+    img {
+      width: 400px;
+    }
+  }
+}
